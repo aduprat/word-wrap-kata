@@ -7,19 +7,9 @@ import org.junit.Test;
 
 public class WordWrapTest {
 
-    /*
-     * test cases:
-     * 
-     * shouldIgnoreEmptyText                        - testWrapEmptyString
-     * shouldNotWrapWordShorterThanLineLength42     - testWrapWordShorterThanLimit
-     * shouldWrapWordOfLength4LongerThanLineLength2 - testWrapWordOnce
-     * shouldWrapWordOfLength6TwiceForLineLength2   - testWrapWordTwice
-     * shouldWrapWordsWithBlankAtLineLengthAtTheBlank - testWrapTwoWords
-     *                                              - testWrapTwoWordsThreeTimes
-     * shouldWrapWordsWithBlankFollowingLineLenAtLineLen - testWrapTwoWordsInMiddle
-     * shouldWrapWordsWithBlankBeforeLineLenAtTheBlank
-     *                                              - testWrapThreeWords
-     * shouldWrapWordsWithNultipleBlankBeforeLineLenAtTheLastBlank - testWrapThreeWordsAtSecondBreak
+    /**
+     *   Word Wrap: (in word processing) a feature that automatically moves a word that is too long to fit on a line to the beginning of the next line.
+     *   
      */
 
     private WordWrap wordWrap;
